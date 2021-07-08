@@ -1,0 +1,182 @@
+body{
+  text-align: center;
+  margin: 0;
+}
+img{
+  height: 100px;
+  width:  100px;
+  object-fit:  cover;
+}
+
+p{
+  font-size: 1.05rem;
+}
+
+h2{
+   text-decoration: underline;
+}
+
+#contact-me h2, #studies h2 {
+  color: #E93B81;
+}
+
+/* profile */
+.navbar{
+  padding-left: 0;
+  padding-bottom: 5%;
+}
+.navbar-brand{
+   font-family: "ubuntu";
+   font-weight: bold;
+   color: #fff;
+ }
+.nav-item{
+  padding: 0 28px;
+  font-size: 1.2rem;
+}
+.nav-link{
+  font-family: "Ubuntu";
+  color: #fff;
+  font-weight: lighter;
+}
+
+.profile{
+  /* background-color: #CDF0EA; */
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.profile-img{
+  width: 250px;
+  height:250px;
+  border-radius: 100%;
+  margin: 4rem auto 2%;
+}
+.headink{
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  padding-top: 5rem;
+}
+
+.college{
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.college:hover{
+  color: black;
+}
+
+.profile p{
+  color: #fff;
+  margin-top: 1.5rem;
+}
+
+
+/* skills-list */
+
+#skills .subink{
+  padding-top: 3%;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: underline;
+  margin-bottom: 2%;
+}
+
+#skills{
+  background-color: #ff4c68;
+  margin-top: 0;
+  text-align: center;
+  padding-bottom: 5%;
+}
+#skill-carousel{
+  padding: 0 15% 7%;
+}
+.skill-img{
+  margin: 25px auto ;
+}
+.carousel-item{
+  padding: 3% 15%;
+}
+#skills p{
+  color: #fff;
+}
+
+
+/* studies-list */
+
+#studies{
+   background-color: #FDFAF6;/* background-color: #FCEEF5; */
+  text-align: center;
+  padding: 7% 15%;
+}
+.study-img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin: 2% 0 5%;
+}
+h5{
+  color: grey;
+}
+
+/* contact-details */
+
+#contact-me{
+   background-color: #f9f9f9;/* background-color: #FCEEF5; */
+  text-align: center;
+  padding: 3rem;
+}
+
+#contact-me p{
+  color: grey;
+}
+
+.btn {
+  background: #eb1ea0;
+  background-image: -webkit-linear-gradient(top, #eb1ea0, #5e464f);
+  background-image: -moz-linear-gradient(top, #eb1ea0, #5e464f);
+  background-image: -ms-linear-gradient(top, #eb1ea0, #5e464f);
+  background-image: -o-linear-gradient(top, #eb1ea0, #5e464f);
+  background-image: linear-gradient(to bottom, #eb1ea0, #5e464f);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 1px 9px #666666;
+  -moz-box-shadow: 0px 1px 9px #666666;
+  box-shadow: 0px 1px 9px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 8px 10px 8px 10px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff007b;
+  text-decoration: none;
+}
+
+/* bottom-container */
+
+.bottom-container{
+  background-color: #ff4c68;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.bottom-container p{
+  line-height: 1.4;
+  color: #fff;
+}
+.SM{
+  width: 30px;
+  height: 30px;
+}
+.SM:hover {
+  opacity: .5;
+}
